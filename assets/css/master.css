@@ -1,0 +1,43 @@
+@font-face {
+    font-family: myfont;
+    src: url(../font/Rubik-Light.ttf);
+}
+
+body {
+    font-family: myfont;
+}
+
+.swiper-slide {
+    width: 200px !important;
+}
+
+.fig1 {
+
+    background-image: linear-gradient(rgb(246, 240, 134), rgb(58, 28, 1));
+
+}
+.fig2 {
+
+    background-image: linear-gradient(rgb(183, 185, 197), rgb(34, 49, 62));
+
+}
+.fig3 {
+
+    background-image: linear-gradient(rgb(134, 149, 246), rgb(1, 30, 58));
+
+}
+.fig4{
+
+    background-image: linear-gradient(rgb(177, 134, 246), rgb(29, 1, 58));
+
+}
+.fig5 {
+
+    background-image: linear-gradient(rgb(213, 218, 252), rgb(1, 37, 58));
+
+}
+.fig6 {
+
+    background-image: linear-gradient(rgb(249, 153, 115), rgb(60, 13, 0));
+
+}

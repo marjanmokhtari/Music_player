@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/icon/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="assets/css/swiper.css">
+
+</head>
+
+<body class="w-[calc(100%+20px)] overflow-x-hidden bg-[#181818]">
+    <main class=" flex h-[100vh] overflow-y-scroll">
+        <!-- ***** section menu ***** -->
+
+
+        <section class="w-[20%]"></section>
+        <section class="w-[20%] min-h-[90vh] bg-[#2e2f36] fixed   flex flex-wrap pr-3">
+            <div class="w-full  flex mt-3 ">
+                <div class=" flex items-center">
+                    <figure class="w-[40px] rounded-full flex ">
+                        <img class=" rounded-full" src="assets/img/photo_6039564981818736365_x.webp" alt="logo">
+                    </figure>
+                </div>
+                <h2 class="text-lg font-semibold items-center text-yellow-400 flex p-2">ملودیفای</h2>
+            </div>
+
+            <div class="w-full  ">
+                <nav class="w-full border-b border-gray-500 ">
+                    <ul class="">
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-th-large"></i>خانه</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-user"></i>ملودیفای من</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-music"></i>پلی لیست ها</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-mic"></i>خوانندگان</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-headphones-2"></i>پشتیبانی</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="w-full   mt-3">
+                <nav>
+                    <ul>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-down-circle"></i>دانلود ها</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-heart"></i>لایک شده ها</a></li>
+                        <li class="my-5"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-plus-circled"></i>افزودن پلی لیست</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="w-full mt-7">
+                <nav>
+                    <ul>
+                        <li class="my-3"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-share"></i>ارسال اپلیکیشن</a></li>
+                        <li class="my-3"><a class="text-white text-lg" href=""><i
+                                    class="text-gray-400 icon-info-circled"></i>درباره ما</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- **** section home **** -->
+        <section class="w-[80%] bg-[#181818]">
+            <section class="w-full flex flex-wrap">
+                <!-- **** header **** -->
+                <header class="w-full flex flex-wrap ">
+                    <div class="w-full flex justify-end me-24 mt-2">
+                        <figure class="w-[25px] flex ">
+                            <span class="flex text-white font-semibold mx-1">Melodify</span>
+                            <img class="rounded-full" src="assets/img/photo_6039564981818736365_x.webp" alt="">
+                        </figure>
+                    </div>
+
+                    <div class="w-full flex mt-1 cursor-pointer">
+                        <div class="w-[80%] flex justify-start ms-5">
+                            <div class="text-white flex items-center gap-3">
+                                <span class="border-2 border-[#292929] rounded-full"><i
+                                        class="icon-angle-right"></i></span>
+                                <span class="border-2 border-[#292929]  me-2 rounded-full"><i
+                                        class="icon-angle-left"></i></span>
+                            </div>
+                            <input class="rounded-3xl bg-[#292929] w-2/5 text-sm p-2" type="search" placeholder="جستجو">
+                        </div>
+
+
+                        <div class="w-[20%]  flex justify-end me-2">
+                            <div class="ms-2 rounded-3xl w-[150px] text-sm">
+                                <span
+                                    class="py-2 text-yellow-400 w-full h-full rounded-3xl flex justify-center items-center bg-[#3d3d3d]">خرید
+                                    اشتراک<i class="icon-crown"></i></span>
+                            </div>
+                            <div class="ms-2 rounded-3xl text-sm w-[150px]  ">
+                                <span
+                                    class="py-2 text-white w-full h-full flex justify-center items-center bg-[#3d3d3d] rounded-3xl">marjan
+                                    <i class="icon-user-1"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- ****end header **** -->
+                <section class="w-full bg-[#181818]  h-[100vh] flex ms-5 mt-5">
+                    <div class="w-full  flex flex-wrap ">
+                        <div class="w-full cursor-pointer">
+                            <h6 class="w-full text-white font-extrabold text-3xl py-5">جدیدترین ها</h6>
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper  ">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide relative">
+                                        <figure class="fig1  h-[250px] flex justify-center rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/1.jpg"
+                                                alt="">
+                                        </figure>
+                                        <span class=""><i
+                                                class="iconsPlay icon-play  text-yellow-400 absolute  top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                                <span class="absolute bottom-5 right-2 text-white font-semibold">بچه نشو</span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm">حسین منتظری</span>
+                                    </div>
+
+                                    <div class="swiper-slide relative">
+                                        <figure class="fig2  h-[250px] flex justify-center rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/2.jpg"
+                                                alt="">
+                                        </figure>
+                                        <span><i
+                                                class="iconsPlay icon-play text-yellow-400 absolute top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                                <span class="absolute bottom-6 right-2 text-white font-semibold">حرف اخر </span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm"> امین بانی</span>
+                                    </div>
+
+                                    <div class="swiper-slide relative">
+                                        <figure class="fig3 h-[250px] flex justify-center  rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/3.jpg"
+                                                alt="">
+                                        </figure>
+                                        <span><i
+                                                class="iconsPlay icon-play text-yellow-400 absolute top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                              <span class="absolute bottom-6 right-2 text-white font-semibold">کمان ابرو </span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm">حجت اشرف زاده</span>
+                                    </div>
+
+                                    <div class="swiper-slide relative">
+                                        <figure class="fig4 h-[250px] flex justify-center  rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/4.jpg"
+                                                alt="">
+                                        </figure>
+                                        <span><i
+                                                class="iconsPlay icon-play text-yellow-400 absolute top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                              <span class="absolute bottom-6 right-2 text-white font-semibold"> تو تکی</span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm"> سینا درخشانی</span>
+                                    </div>
+
+                                    <div class="swiper-slide relative">
+                                        <figure class="fig5 h-[250px] flex justify-center  rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/5.jpg"
+                                                alt="">
+                                        </figure>
+                                        <span><i
+                                                class="iconsPlay icon-play text-yellow-400 absolute top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                              <span class="absolute bottom-6 right-2 text-white font-semibold"> یادم نرفته</span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm">هوروش بند </span>
+                                    </div>
+                                    <div class="swiper-slide relative">
+
+                                        <figure class="fig6 h-[250px] flex justify-center  rounded-xl">
+                                            <img class="boxcover object-cover rounded-xl w-[80%] h-3/4 mt-2" src="assets/img/6.jpg"
+                                                alt="">
+                                        </figure>
+                                        </span ><i class="iconsPlay icon-play text-yellow-400 absolute top-[50%] left-[50%] text-3xl translate-x-[-50%] translate-y-[-50%]"></i></span>
+                                                <span class="absolute bottom-6 right-2 text-white font-semibold"> دلم میخواد</span>
+                                                <span class="absolute bottom-1 right-2 text-white text-sm">پازل بند</span>
+
+                                    </div>
+
+                                    <audio src="assets/music/1.mp3" autoplay id="musicsours" ontimeupdate="myTime(this)">0:00</audio>
+
+                                </div>
+                                <!-- <div class="swiper-pagination"></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <!-- **** sec play music **** -->
+        <section class="w-full  bg-[#090909] fixed h-[100px] bottom-0 flex justify-center">
+
+            <div class="w-1/3 flex justify-end ">
+               
+            </div>
+            <div class="py-5 flex flex-wrap justify-center  w-1/2">
+                <div class="w-full text-yellow-400 flex justify-center gap-4 text-xl">
+                    <span id="songstime"  class=" text-yellow-50 text-xl my-1 flex" ></span>
+
+                    <span><i class="nextmusic icon-fast-fw"></i></span>
+                    <span><i class="play2 icon-play"></i></span>
+                    <span><i class="nextmusic icon-fast-bw"></i></span>
+                    <span id="time" class="flex text-yellow-50 text-xl my-1"></span>
+
+                </div>
+                <div class="w-[70%] h-[100%] p-1 flex justify-center items-center cursor-pointer ">
+                    <div id="line" class="w-[100%] h-[20%] rounded-full overflow-hidden bg-white flex justify-end  relative">
+                        <div id="timer"  class="h-[100%]  bg-amber-400 flex justify-start items-center absolute ">
+                            <div class="w-[.8rem] h-[.8rem] bg-[red] relative z-50 rounded-full "></div>
+                        </div>
+                    </div>
+                </div>
+               
+              
+            </div>
+            <div class=" w-1/3 h-full">
+                <div class="w-full flex h-full justify-center">
+                    <div class="w-2/3  text-white flex flex-wrap justify-end items-center text-sm">
+                       <h6 class="nameMusic flex justify-end w-full font-semibold text-lg">بچه نشو</h6>
+                       <h4 class="nameartist flex justify-end w-full text-gray-400">حسین منتظری</h4>
+                    </div>
+                    <figure class="w-1/3 flex justify-center items-center">
+                         <img class="showcover w-[80px] h-[80px] object-cover rounded-4xl " src="assets/img/1.jpg" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/swiper1.js"> </script> 
+    <script src="assets/js/swiper2.js"></script>
+<script>
+    
+
+</script>
+
+</body>
+
+</html>
